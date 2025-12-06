@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="200" height="200" alt="StackSolve Logo" src="web/public/logo.png" />
+  <img width="200" height="200" alt="ScopeAssist Logo" src="web/public/logo.png" />
 </div>
 
 <h1 align="center">ScopeAssist-基于魔搭的社区智答助手</h1>
@@ -122,7 +122,7 @@
 ## 界面预览
 
 <div align="center">
-  <img src="docs/image.png" alt="检索内容" width="800"/>
+  <img src="docs/image.bmp" alt="检索内容" width="800"/>
 </div>
 
 ## 核心功能
