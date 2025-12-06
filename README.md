@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Version](https://img.shields.io/badge/version-v0.2.1-orange.svg)](https://github.com/yourusername/StackSolve/releases)
+[![Version](https://img.shields.io/badge/version-v0.2.1-orange.svg)](https://github.com/yourusername/ScopeAssist/releases)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/Docker-ready-orange.svg)](docker-compose.yml)
 [![Python](https://img.shields.io/badge/Python-3.11+-orange.svg)](https://www.python.org/)
