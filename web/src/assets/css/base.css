@@ -1,0 +1,178 @@
+/* color palette from <https://github.com/vuejs/theme> */
+/* https://material-foundation.github.io/material-theme-builder/ */
+:root {
+  --main-1000: #00050c;
+  /* 深蓝黑 */
+  --main-900: #061639;
+  /* 深海军蓝 */
+  --main-800: #0a1e50;
+  /* 深蓝 */
+  --main-700: #083D7F;
+  /* 中深蓝 */
+  --main-600: #0A4B9A;
+  /* 标准深蓝 */
+  --main-500: #0D5BBA;
+  /* 新科技蓝 - 主色调 */
+  --main-400: #3178CA;
+  /* 明亮科技蓝 */
+  --main-300: #5E9AD7;
+  /* 柔和科技蓝 */
+  --main-200: #8CBFE4;
+  /* 浅科技蓝 */
+  --main-100: #B7D6F1;
+  /* 极浅科技蓝 */
+  --main-50: #E1EFFA;
+  /* 蓝色背景过渡 */
+  --main-40: #E8F0FF;
+  /* 淡蓝调 */
+  --main-30: #F0F5FF;
+  /* 几近白的蓝调 */
+  --main-20: #F5F8FF;
+  /* 蓝白过渡 */
+  --main-10: #FAFCFF;
+  --main-5: #FCFDFF;
+  --main-1: #FEFEFE;
+  --main-0: #FFFFFF;
+
+
+  --gray-10000: #000000;
+  /* 保持纯黑 */
+  --gray-2000: #0d0d0d;
+  /* 更精致的暗灰，用于极深背景 */
+  --gray-1000: #161616;
+  /* 深灰黑，适用于主文本 */
+  --gray-900: #1f1f1f;
+  --gray-800: #333333;
+  /* 标准深灰，适合背景 */
+  --gray-700: #4d4d4d;
+  --gray-600: #707070;
+  /* 调和中灰，适合次要文本 */
+  --gray-500: #999999;
+  /* 更柔和的中灰色 */
+  --gray-400: #bfbfbf;
+  --gray-300: #d9d9d9;
+  /* 修正了原300/200重复 */
+  --gray-200: #e6e6e6;
+  /* 稍微加深一点，便于分层 */
+  --gray-150: #f0f0f0;
+  --gray-100: #f2f2f2;
+  --gray-50: #f7f7f7;
+  --gray-25: #fafafa;
+  --gray-10: #fcfcfc;
+  --gray-0: #ffffff;
+
+  --main-color: #0D5BBA;
+  /* 新主色调 */
+  --main-bright: #3178CA;
+  --secondry-color: #667085;
+  --error-color: #F53F3F;
+  --color-primary: #0D5BBA;
+  --color-primary-bg: #E1EFFA;
+  --color-success: #45b30e;
+  --color-error: #c73234;
+  --color-info: #0D5BBA;
+  --color-bg-base: #ffffff;
+
+  /* Chart Colors - 图表颜色系统 */
+  --chart-primary: var(--main-500);
+  /* 主色调 - 用于主要数据 */
+  --chart-primary-light: var(--main-400);
+  /* 主色调浅色 - 用于渐变 */
+  --chart-primary-dark: var(--main-600);
+  /* 主色调深色 - 用于强调 */
+
+  --chart-success: #52c41a;
+  /* 成功色 - 绿色 */
+  --chart-success-light: #95de64;
+  /* 成功色浅色 */
+  --chart-success-dark: #389e0d;
+  /* 成功色深色 */
+
+  --chart-warning: #faad14;
+  /* 警告色 - 橙色 */
+  --chart-warning-light: #ffd666;
+  /* 警告色浅色 */
+  --chart-warning-dark: #d48806;
+  /* 警告色深色 */
+
+  --chart-error: #f5222d;
+  /* 错误色 - 红色 */
+  --chart-error-light: #ff7875;
+  /* 错误色浅色 */
+  --chart-error-dark: #cf1322;
+  /* 错误色深色 */
+
+  --chart-info: #1890ff;
+  /* 信息色 - 蓝色 */
+  --chart-info-light: #69c0ff;
+  /* 信息色浅色 */
+  --chart-info-dark: #096dd9;
+  /* 信息色深色 */
+
+  --chart-secondary: #722ed1;
+  /* 次要色 - 紫色 */
+  --chart-secondary-light: #b37feb;
+  /* 次要色浅色 */
+  --chart-secondary-dark: #531dab;
+  /* 次要色深色 */
+
+  --chart-accent: #13c2c2;
+  /* 强调色 - 青色 */
+  --chart-accent-light: #5cdbd3;
+  /* 强调色浅色 */
+  --chart-accent-dark: #08979c;
+  /* 强调色深色 */
+
+  /* Chart Palette - 图表调色板 */
+  --chart-palette-1: #0D5BBA;
+  /* 主科技蓝 */
+  --chart-palette-2: #3178CA;
+  /* 明亮科技蓝 */
+  --chart-palette-3: #00B4D8;
+  /* 深青色（互补对比） */
+  --chart-palette-4: #9333EA;
+  /* 紫色（邻近色） */
+  --chart-palette-5: #F53F3F;
+  /* 红色（强调） */
+  --chart-palette-6: #059669;
+  /* 深绿色（辅助） */
+  --chart-palette-7: #7C3AED;
+  /* 紫青色（对比） */
+  --chart-palette-8: #0284C7;
+  /* 深青色（点缀） */
+  --chart-palette-9: #10B981;
+  /* 绿色（平衡） */
+  --chart-palette-10: #1F2937;
+  /* 深灰（中性补充） */
+
+  /* Stats Card Colors - 统计卡片颜色系统 */
+  --stats-primary-bg: #E1EFFA;
+  /* 主色调背景 - 浅科技蓝 */
+  --stats-primary-color: #0D5BBA;
+  /* 主色调文字 - 科技蓝 */
+  --stats-success-bg: #ECFDF5;
+  /* 成功色背景 */
+  --stats-success-color: #10B981;
+  /* 成功色文字 */
+  --stats-info-bg: #EFF6FF;
+  /* 信息色背景 - 浅蓝 */
+  --stats-info-color: #0D5BBA;
+  /* 信息色文字 - 蓝色 */
+  --stats-warning-bg: #FFFBEB;
+  /* 警告色背景 - 浅黄 */
+  --stats-warning-color: #F59E0B;
+  /* 警告色文字 - 黄色 */
+  --stats-secondary-bg: #F5F3FF;
+  /* 次要色背景 - 浅紫 */
+  --stats-secondary-color: #7C3AED;
+  /* 次要色文字 - 紫色 */
+  --stats-error-bg: #FEF2F2;
+  /* 错误色背景 */
+  --stats-error-color: #F87171;
+  /* 错误色文字 */
+
+  --bg-sider: var(--main-5);
+  --color-text: var(--c-black);
+
+  --min-width: 400px;
+}

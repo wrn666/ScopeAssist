@@ -1,0 +1,15 @@
+__pycache__\
+*.pyc
+*.pyo
+logs\*.log
+osredm_projects_output\
+markdown\
+markdown1.zip
+markdown-10-11.zip
+红山图片pdf\
+红山图片pdf.zip
+PixPin_2025-10-11_21-59-23.pdf
+temp_upload\
+.git\
+*.tmp
+*.temp
