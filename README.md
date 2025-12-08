@@ -214,7 +214,7 @@ branding:
 ## 📦 项目结构
 
 ```
-StackSolve/
+ScopeAssist/
 ├── docker/              # Docker 配置
 ├── server/              # FastAPI 后端
 │   ├── routers/         # API 路由
